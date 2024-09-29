@@ -1,0 +1,180 @@
+html,body{
+    background-color: rgb(46, 43, 43);
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+header{
+    padding: 20px;
+    background-color: rgb(32, 32, 32);
+}
+
+nav li{
+    padding: 0px;
+    display: inline;
+    margin-right: 40px;
+    color: white;
+    letter-spacing: 5px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+nav li:hover{
+    transition: 0.7s;
+    color: whitesmoke;
+    font-size: 18px;
+    text-decoration: underline;
+
+}
+
+.icons{
+    color: black;
+    display: inline;
+    margin-right: 20px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.icons:hover{
+    transition: 0.5s;
+    font-size: 28px;
+}
+
+#msg-scripts{
+    margin: 0 auto;
+    width: 800px;
+    text-align: center;
+    background-color: rgb(48, 48, 226);
+    border-radius: 30px;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#rosto{
+    width: 240px;
+    border-radius: 50%;
+}
+
+#download{
+    border-radius: 20px;
+    transition: 0.5s;
+    background-color: rgb(73, 190, 73);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding: 20px;
+}
+
+#download:hover{
+    transition: 0.5s;
+    font-size: 20px;
+    background-color: rgb(57, 226, 57);
+}
+
+#container-projetos{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(32, 32, 32);
+    padding: 20px;
+    margin-top: 30px;
+}
+
+#btn{
+    float: right;
+    margin-top: -20px;
+    background-color: rgb(32, 32, 32);
+    border: none;
+}
+
+.item-projeto{
+    transition: 1s;
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    margin-right: 20px;
+    border-radius: 10%;
+}
+
+.item-projeto:hover{
+    transition: 1s;
+    width: 220px;
+    height: 220px;
+    box-shadow: 0px 14px 28px rgb(48, 48, 226);
+}
+
+.teste{
+    display: inline-block;
+    color: white;
+
+
+}
+
+#container-projetos h1{
+    margin-top: 100px;
+}
+
+
+
+#arrow{
+    color: white;
+}
+
+#lampada{
+    float: right;
+    margin-right: 40px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+    margin-top: -10px;
+}
+
+
+@media(min-width: 1px) and (max-width: 900px){
+    body{
+        margin: 0 auto;
+    }
+
+    nav{
+        width: 500px;
+    }
+
+    header{
+        background-color: rgb(46, 43, 43);
+
+    }
+    footer{
+        background-color: rgb(46, 43, 43) ;
+    }
+    #msg-scripts{
+        width: 200px;
+        height: 600px;
+        margin-bottom: 100px;
+    }
+    #rosto{
+        width: 100px;
+        height: 100px;
+    }
+    #lampada{
+        display: none;
+    }
+    #btn{
+        margin-right: 60px;
+        background-color:  rgb(46, 43, 43) ;
+    }
+
+    
+
+
+
+
+}
+
