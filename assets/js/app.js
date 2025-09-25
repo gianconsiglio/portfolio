@@ -30,7 +30,7 @@ function idiomaIngles(){
     document.getElementById('projetos-nav').innerHTML = 'Projects'
     document.getElementById('inicio-nav').innerHTML = 'Home'
     document.getElementById('title').innerHTML = 'Portfolio'
-    document.getElementById('pfooter').innerHTML = 'Developed by Gianpietro Consiglio © 2024'
+    document.getElementById('pfooter').innerHTML = 'Developed by Gianpietro Consiglio © 2025'
     if (retorno === 'Bom dia'){
         retorno = 'Good morning'
     }else if (retorno === 'Boa tarde'){
@@ -68,7 +68,7 @@ function idiomaPortugues(){
     document.getElementById('projetos-nav').innerHTML = 'Projetos'
     document.getElementById('inicio-nav').innerHTML = 'Início'
     document.getElementById('title').innerHTML = 'Portfólio'
-    document.getElementById('pfooter').innerHTML = 'Desenvolvido por Gianpietro Consiglio © 2024'
+    document.getElementById('pfooter').innerHTML = 'Desenvolvido por Gianpietro Consiglio © 2025'
 
     const j = setInterval(function(){
         let res =  retorno + ', Meu nome é Gian. Bem-Vindo ao meu Portfólio'
